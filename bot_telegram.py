@@ -4,6 +4,8 @@ from stockfish import Stockfish
 import logging
 from telegram import __version__ as TG_VER
 
+# Свыше ипорт
+
 try:
     from telegram import __version_info__
 except ImportError:
